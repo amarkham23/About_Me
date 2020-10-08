@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Andrew Markham</string>
+
+    <string name="bio">Hi, My name is Andrew M.
+        \n \nI love playing video games.
+        \nA game I have been playing a lot lately is
+        \nAnimal Crossing: New Horizons.
+        \n \nIt\'s a unique, cute, and friendly life simulation game, where
+        the main focus is to spend time building a
+        small island community, surrounded and accompanied
+        by various animal friends who are always friendly and willing to
+        lend a hand or play games with you.
+    </string>
+
+</resources>
