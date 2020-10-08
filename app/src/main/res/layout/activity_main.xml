@@ -19,10 +19,42 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
+    <EditText
+        android:id="@+id/nickname_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nickname"
+        android:inputType="textPersonName"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/done" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
     <ScrollView
@@ -33,19 +65,20 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/bio_text"
                 style="@android:style/TextAppearance.Material.Medium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
                 android:paddingLeft="20dp"
                 android:paddingTop="20dp"
                 android:paddingEnd="20dp"
                 android:paddingRight="20dp"
-                android:lineSpacingMultiplier="1.2"
-                android:text="@string/bio" />
+                android:text="@string/bio"
+                android:textAlignment="center" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

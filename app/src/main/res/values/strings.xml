@@ -12,5 +12,7 @@
         by various animal friends who are always friendly and willing to
         lend a hand or play games with you.
     </string>
+    <string name="nickname">What is your nickname?</string>
+    <string name="done">Done</string>
 
 </resources>
